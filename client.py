@@ -46,7 +46,7 @@ def askPlayerName():
     screen_width = nameWindow.winfo_screenwidth()
     screen_height = nameWindow.winfo_screenheight()
 
-    bg = ImageTk.PhotoImage(file = "./assets/tambola2.jpeg")
+    bg = ImageTk.PhotoImage(file = "./tambola2.jpeg")
 
     canvas1 = Canvas( nameWindow, width = 500,height = 500)
     canvas1.pack(fill = "both", expand = True)
